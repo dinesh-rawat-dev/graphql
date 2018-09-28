@@ -9,6 +9,24 @@
 - An Administrator interface that should allow changes that would be reflected within the customer interface. The changes (mutations) are sent to a GraphQL endpoint.
 - Customer interface to query a GraphQL endpoint.
 
+## Installation
+
+> npm i
+
+
+#### Start in dev. mode
+
+>
+Server: `npm start` // Transpiles the code and start express server on port `3000`
+
+Client: `npm run dev` // Run the client app on port: `4200`
+
+
+#### Start in prod. mode
+
+> npm run build
+
+
 
 ## Code Samples
 
@@ -63,19 +81,6 @@ Admin interface allows the user to add new product and update any existing produ
 
 NOTE: The product images are totally irrelevant.
 
-
-## Installation
-
-> npm i
-
-#### Start in dev. mode
->
-Server: `npm start` // Transpiles the code and start express server on port `3000`
-Client: `npm run dev` // Run the client app on port: `4200`
-
-#### Start in prod. mode
-
-> npm run build
 
 ## GraphQL Queries
 
