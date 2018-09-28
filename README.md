@@ -103,7 +103,7 @@ query getProducts($name: String) {
 
 #### Get productByProductId:
 
-```json
+```javascript
 query getProduct($id: String!) {
         product(id: $id) {
                 id,
@@ -122,7 +122,7 @@ query getProduct($id: String!) {
 {
    "id": "HT-1002"
 }
-````
+````javascript
 
  #### Add new product
 ```json
@@ -158,7 +158,7 @@ mutation addNewProduct ($id: String!
 
  #### Update any product
 
- ```json
+ ```javascript
  mutation updateProduct ($id: String!
        $category: String!       
        $supplierName: String       
@@ -189,7 +189,7 @@ Variables:
  }
 ```
  #### Delete any product
-```json
+```javascript
  query deleteProduct($id: String!) {
         products(id: $id) {       
             id            
