@@ -86,7 +86,7 @@ NOTE: The product images are totally irrelevant.
 
 #### Get all products:
 
-```json
+```javascript
 query getProducts($name: String) {
       products(name: $name) {
           id,
@@ -122,10 +122,11 @@ query getProduct($id: String!) {
 {
    "id": "HT-1002"
 }
-````javascript
+````
 
  #### Add new product
-```json
+ 
+```javascript
 mutation addNewProduct ($id: String!
        $category: String!
        $supplierName: String
