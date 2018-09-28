@@ -200,7 +200,9 @@ Variables:
 Plugins used:
 
 -- copy-web-pack-plugin
+
 -- html-webpack-plugin
+
 -- extract-text-webpack-plugin
 
 - React
