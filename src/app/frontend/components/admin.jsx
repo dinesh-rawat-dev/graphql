@@ -37,7 +37,7 @@ class AdminUser extends Component {
         const products = Object.values(this.props.products.data);
         return (
             <div>
-                <Link className="newProductCreate" to={`/`}>Open customer portal >>>> </Link>
+                <Link className="newProductCreate" to={`/`} target="_blank">Open customer portal >>>> </Link>
                 <h1>Manage Products: </h1>
                 <Link className="newProductCreate" to={`create`}>Add new product </Link>
                 <table>
