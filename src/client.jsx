@@ -11,8 +11,6 @@ import Create from './app/frontend/components/create.jsx';
 import Update from './app/frontend/components/update.jsx';
 import Customer from './app/frontend/components/customer.jsx';
 
-
-
 render(
     <Provider store={store}>
         <Router>
