@@ -151,44 +151,70 @@ NOTE: The product images are totally irrelevant.
  #### Update any product
 
  > mutation updateProduct ($id: String!
+ 
        $category: String!
+       
        $supplierName: String
+       
        $description: String
+       
        $productPicUrl: String
+       
        $name: String!
+       
        $status: Boolean) {
+       
    updateProduct (id: $id, category: $category, supplierName: $supplierName, description: $description,
        productPicUrl: $productPicUrl, name: $name, status: $status) {
+       
            id,
+           
            category,
+           
            supplierName,
+           
            description,
+           
            productPicUrl,
+           
            name,
+           
            status
+           
        }
+       
  }
 
 Variables:
 
 > {
+
    "id": "H-51043",
+   
    "name": "Lenovo B480 -my laptopt",
+   
    "category": "Laptops"
+   
  }
 
  #### Delete any product
 
 > query deleteProduct($id: String!) {
+
         products(id: $id) {
+        
             id
+            
         }
+        
   }
 
 Variables:
 
 {
+
     "id": "H-51043"
+    
 }
 
 ## Technologies
