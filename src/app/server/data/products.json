@@ -1,0 +1,40 @@
+{
+  "productCollection": [
+    {
+      "id": "HT-1000",
+      "category": "Laptops",
+      "supplierName": "Very Best Screens",
+      "description": "Notebook Basic 15 with 2,80 GHz quad core, 15\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+      "name": "Notebook Basic 15",
+      "productPicUrl": "https://placeimg.com/100/100/any",
+      "status": true
+    },
+    {
+      "id": "HT-1001",
+      "category": "Laptops",
+      "supplierName": "Very Best Screens",
+      "description": "Notebook Basic 17 with 2,80 GHz quad core, 17\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro",
+      "name": "Notebook Basic 17",
+      "productPicUrl": "https://placeimg.com/100/100/1",
+      "status": true
+    },
+    {
+      "id": "HT-1002",
+      "category": "Mobiles",
+      "supplierName": "Very Best Screens",
+      "description": "Mobile 5 inches mobile phone.",
+      "name": "Moto G5S Plus",
+      "productPicUrl": "https://placeimg.com/100/100/2",
+      "status": true
+    },
+    {
+      "id": "HT-1003",
+      "category": "Laptops",
+      "supplierName": "Smartcards",
+      "description": "Notebook Basic 19 with 2,80 GHz quad core, 19\" LCD, 8 GB DDR3 RAM, 1000 GB Hard Disc, Windows 8 Pro",
+      "name": "Notebook Basic 19",
+      "productPicUrl": "https://placeimg.com/100/100/3",
+      "status": true
+    }
+  ]
+}
