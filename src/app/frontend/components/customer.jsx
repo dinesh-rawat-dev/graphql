@@ -37,7 +37,7 @@ class Home extends Component {
         const products = Object.values(this.props.products.data);
         return (
             <div className="productContainer">
-                <strong><i>To be admin: simply change url to <Link to="/admin"> Admin, </Link> </i></strong><h1>Products: </h1>
+                <strong><i>To be admin: simply change url to <Link to="/admin" target="_blank"> Admin, </Link> </i></strong><h1>Products: </h1>
 
                 {products.length ? products.map((product, index) => (
                     <div className="productCard" key={index}>
