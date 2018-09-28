@@ -86,41 +86,47 @@ NOTE: The product images are totally irrelevant.
 
 #### Get all products:
 
-> query getProducts($name: String) {
-          products(name: $name) {
-              id,
-              name,
-              category,
-              supplierName,
-              description,
-              productPicUrl,
-              status
-          }
-  }
+```json
+query getProducts($name: String) {
+      products(name: $name) {
+          id,
+          name,
+          category,
+          supplierName,
+          description,
+          productPicUrl,
+          status
+      }
+}
+```
+  
 
 #### Get productByProductId:
 
-> query getProduct($id: String!) {
-            product(id: $id) {
-                    id,
-                    name,
-                    category,
-                    supplierName,
-                    description,
-                    productPicUrl,
-                    status
-            }
-    }
-
+```json
+query getProduct($id: String!) {
+        product(id: $id) {
+                id,
+                name,
+                category,
+                supplierName,
+                description,
+                productPicUrl,
+                status
+        }
+}
+```
  Variables:
 
- > {
+```json
+{
    "id": "HT-1002"
- }
+}
+````
 
  #### Add new product
-
- > mutation addNewProduct ($id: String!
+```json
+mutation addNewProduct ($id: String!
        $category: String!
        $supplierName: String
        $description: String
@@ -138,19 +144,22 @@ NOTE: The product images are totally irrelevant.
            status
        }
  }
+````
 
  Variables:
 
- > {
+ ```json
+ {
      "id": "H-51043",
      "name": "Lenovo B480",
      "category": "Laptops"
    }
-
+````
 
  #### Update any product
 
- > mutation updateProduct ($id: String!
+ ```json
+ mutation updateProduct ($id: String!
        $category: String!       
        $supplierName: String       
        $description: String       
@@ -168,28 +177,32 @@ NOTE: The product images are totally irrelevant.
            status           
        }       
  }
+````
 
 Variables:
 
-> {
+```json
+{
    "id": "H-51043",   
    "name": "Lenovo B480 -my laptopt",   
    "category": "Laptops"   
  }
-
+```
  #### Delete any product
-
-> query deleteProduct($id: String!) {
+```json
+ query deleteProduct($id: String!) {
         products(id: $id) {       
             id            
         }        
   }
+  ````
 
 Variables:
-
+```json
 {
-    "id": "H-51043"    
+  "id": "H-51043"    
 }
+```
 
 ## Technologies
 
