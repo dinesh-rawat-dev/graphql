@@ -39,7 +39,7 @@ class AdminUser extends Component {
             <div>
                 <Link className="newProductCreate" to={`/`} target="_blank">Open customer portal >>>> </Link>
                 <h1>Manage Products: </h1>
-                <Link className="newProductCreate" to={`create`}>Add new product </Link>
+                <Link className="newProductCreate" to='admin/create'>Add new product </Link>
                 <table>
                     <thead>
                     <tr>
@@ -61,7 +61,7 @@ class AdminUser extends Component {
                             <td>{product.category}</td>
                             <td>{product.supplierName}</td>
                             <td>{product.description}</td>
-                            <td><Link to={`/update/${product.id}`}>Update </Link></td>
+                            <td><Link to={`admin/update/${product.id}`}>Update </Link></td>
                         </tr>
                     )) : <tr>
                         <td colSpan="7">No products</td>

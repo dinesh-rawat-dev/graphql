@@ -11,14 +11,16 @@ import Create from './app/frontend/components/create.jsx';
 import Update from './app/frontend/components/update.jsx';
 import Customer from './app/frontend/components/customer.jsx';
 
+
+
 render(
     <Provider store={store}>
         <Router>
             <div>
                 <Route path="/" exact component={Customer}/>
-                <Route path="/admin" component={Admin}/>
-                <Route path="/create" component={Create}/>
-                <Route path="/update/:id" component={Update}/>
+                <Route path="/admin" exact component={Admin} />
+                <Route path='/admin/create' component={Create} />
+                <Route path="/admin/update/:id" component={Update}/>
             </div>
         </Router>
     </Provider>,
