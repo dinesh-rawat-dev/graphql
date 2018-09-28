@@ -1,5 +1,5 @@
 # Code Test : GraphQL
-[![Ecommerce website](https://i.ytimg.com/vi/Uyc5xlJ0uF4/hqdefault.jpg)](https://www.youtube.com/watch?v=Uyc5xlJ0uF4)
+[![Ecommerce website](https://static.makeuseof.com/wp-content/uploads/2015/12/youtube-player-670x335.jpg)](https://www.youtube.com/watch?v=Uyc5xlJ0uF4)
 
 
 ## Introduction
