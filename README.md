@@ -2,12 +2,12 @@
 [![Ecommerce website](https://static.makeuseof.com/wp-content/uploads/2015/12/youtube-player-670x335.jpg)](https://www.youtube.com/watch?v=Uyc5xlJ0uF4)
 
 
-## Introduction
+## Overview
 
 >The website needs to have:
 
-- An Administrator interface that should allow changes that would be reflected within the customer interface. The changes (mutations) are sent to a GraphQL endpoint.
-- Customer interface to query a GraphQL endpoint.
+- An Administrator interface that should allow changes that would be reflected within the customer interface. The changes (mutations) are sent to a GraphQL endpoint. (/admin)
+- Customer interface to query a GraphQL endpoint.(/)
 
 ## Installation
 
@@ -26,7 +26,9 @@ Client: `npm run dev` // Run the client app on port: `4200`
 
 > npm run build
 
+## Running unit test cases
 
+> npm run test
 
 ## Code Samples
 
@@ -226,3 +228,5 @@ Plugins used:
 - graphql
 
 - express_graphql
+
+- Jest for unit testing
