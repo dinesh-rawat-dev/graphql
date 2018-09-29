@@ -230,3 +230,9 @@ Plugins used:
 - express_graphql
 
 - Jest for unit testing
+
+- ES 6
+
+NOTE:-
+--
+* Unit tests are done only for front-end. It checks the dom elements. Not test cases for express app
