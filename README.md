@@ -1,5 +1,5 @@
 # Code Test : GraphQL
-[![Ecommerce website](https://static.makeuseof.com/wp-content/uploads/2015/12/youtube-player-670x335.jpg)](https://www.youtube.com/watch?v=Uyc5xlJ0uF4)
+[![Ecommerce website](https://static.makeuseof.com/wp-content/uploads/2015/12/youtube-player-670x335.jpg)](https://www.youtube.com/watch?v=6Z1FKndLIZg)
 
 
 ## Overview
@@ -29,6 +29,8 @@ Client: `npm run dev` // Run the client app on port: `4200`
 ## Running unit test cases
 
 > npm run test
+
+![JEST Unit Test Results](https://image.ibb.co/moS41p/12.png)
 
 ## Code Samples
 
