@@ -12,7 +12,7 @@ module.exports = {
     },
     plugins: [
         new CopyWebpackPlugin([{
-            from: './src/app/server/data/products.json',
+            from: './src/app/data/products.json',
             to: 'data/products.json'
         }])
     ],

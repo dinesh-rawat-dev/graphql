@@ -83,17 +83,17 @@ class UpdateProduct extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <label>Id: </label>
                     <input type="text" placeholder="Product Id" value={this.state.id} id="id"
-                           onChange={this.handleChange}/>
+                           onChange={this.handleChange} required/>
                     <br/>
 
                     <label>Name: </label>
                     <input type="text" placeholder="name" value={this.state.name} id="name"
-                           onChange={this.handleChange}/>
+                           onChange={this.handleChange} required/>
                     <br/>
 
                     <label>Category: </label>
                     <input type="text" placeholder="Category" value={this.state.category} id="category"
-                           onChange={this.handleChange}/>
+                           onChange={this.handleChange} required/>
                     <br/>
 
                     <label>SupplierName: </label>

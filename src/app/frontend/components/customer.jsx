@@ -9,7 +9,7 @@ import {ADD_NEW_PRODUCT} from '../redux/types.jsx';
 const fetch = createApolloFetch({uri: '/query'});
 import './style.css';
 
-class Home extends Component {
+export class Home extends Component {
     constructor() {
         super();
         this.state = {
@@ -47,7 +47,7 @@ class Home extends Component {
                             <p className="text">{product.description}</p>
                         </div>
                     </div>
-                )) : <h5>No products</h5>}
+                )) : <h5 className="noProductFound">No products</h5>}
             </div>
         )
     }
@@ -68,5 +68,5 @@ const mapDispatchToProps = (dispatch) => {
     }
 };
 
-const Customer = connect(mapStateToProps, mapDispatchToProps)(Home);
-export default Customer;
+export const Customer = connect(mapStateToProps, mapDispatchToProps)(Home);
+

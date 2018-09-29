@@ -9,7 +9,13 @@
     "start": "npm run build-server && node ./dist/server.js",
     "build-client": "webpack --mode production --config webpack.client.js",
     "dev": "webpack-dev-server --mode development --config webpack.client.js --open",
-    "build": "npm run clean && npm run build-server && npm run build-client"
+    "build": "npm run clean && npm run build-server && npm run build-client",
+    "test": "jest"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.css$": "identity-obj-proxy"
+    }
   },
   "keywords": [],
   "author": "Dinesh Rawat",
@@ -26,17 +32,23 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-loader": "^8.0.2",
     "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^23.6.0",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "rimraf": "^2.6.2",
     "style-loader": "^0.23.0",
+    "unexpected": "^10.39.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1",
     "webpack-dev-server": "^3.1.9",

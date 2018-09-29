@@ -34,8 +34,7 @@ app.use('/query', (req, res, next) => {
 
 app.use('/query', express_graphql({
     schema: schema,
-    rootValue: root,
-    graphiql: true
+    rootValue: root
 }));
 
 app.listen(3000, () => console.log('Server stated on port: 3000'));

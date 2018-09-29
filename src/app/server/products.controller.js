@@ -2,7 +2,7 @@
  * Products controller
  */
 
-// Fake products
+// Fake products collection
 import {productCollection} from './data/products.json';
 
 /**
@@ -31,7 +31,7 @@ export function getProducts(args) {
  */
 export function addProduct(product) {
     const lastIndex = productCollection.push(product);
-    return productCollection[lastIndex-1];
+    return productCollection[lastIndex - 1];
 }
 
 /**
@@ -39,7 +39,7 @@ export function addProduct(product) {
  */
 export function deleteProduct({id}) {
     const index = productCollection
-                    .findIndex(product => product.id === id);
+        .findIndex(product => product.id === id);
     return productCollection.splice(index, 1);
 }
 
